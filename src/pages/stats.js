@@ -26,7 +26,8 @@ import DeclarationsChartTypography from '../components/DeclarationsChartTypograp
 import DeclarationsChartSpacing from '../components/DeclarationsChartSpacing'
 import DeclarationsChartSpacingMargin from '../components/DeclarationsChartSpacingMargin'
 
-const API_URL = 'https://cssstats.com/api'
+// const API_URL = 'https://cssstats.com/api'
+const API_URL = 'http://localhost:3000/api'
 
 export default () => {
   const [stats, setStats] = useState(null)
