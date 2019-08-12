@@ -93,13 +93,15 @@ export default () => {
                 borderColor: 'gray'
               }}
             >
-              <dt>File size</dt>
+              {/* <dt>File size</dt> */}
+              <dt>文件大小</dt>
               <dd sx={{ fontSize: 64, fontWeight: 700, marginLeft: 0 }}>
                 {humanizedSize}
               </dd>
             </dl>
             <dl sx={{ marginRight: 32, paddingRight: 32 }}>
-              <dt>Gzipped file size</dt>
+              {/* <dt>Gzipped file size</dt> */}
+              <dt>gzip后文件大小</dt>
               <dd style={{ fontSize: 64, fontWeight: 700, marginLeft: 0 }}>
                 {humanizedGzipSize}
               </dd>
@@ -130,7 +132,8 @@ export default () => {
                     textAlign: 'right'
                   }}
                 >
-                  Size
+                  {/* Size */}
+                  大小
                 </th>
                 <th
                   sx={{
@@ -142,7 +145,8 @@ export default () => {
                     textAlign: 'right'
                   }}
                 >
-                  Gzipped
+                  {/* Gzipped */}
+                  gzip后
                 </th>
               </tr>
               <tr>
@@ -356,7 +360,7 @@ export default () => {
       <Declarations properties={properties} />
       <Colors colors={colors} />
       <BackgroundColors backgroundColors={backgroundColors} />
-      <H2 fontSize={6}>Typography</H2>
+      <H2 fontSize={6}>排印</H2>
       <FontSizes fontSizes={properties['font-size']} />
       <FontFamilies fontFamilies={properties['font-family']} />
       <SpacingResets properties={properties} />
@@ -374,7 +378,7 @@ export default () => {
       <DeclarationsChartSpacingMargin data={declarations} />
 
       <Div mt={5}>
-        <H2>Raw Css</H2>
+        <H2>CSS 源码</H2>
         <Pre>{css.trim()}</Pre>
       </Div>
     </Layout>

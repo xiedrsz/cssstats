@@ -31,7 +31,7 @@ export default ({ data }) => {
 
   return (
     <Div mt={4}>
-      <SectionTitle title="Typography" />
+      <SectionTitle title="排印" />
 
       <GroupedBarChart data={formattedData} />
     </Div>

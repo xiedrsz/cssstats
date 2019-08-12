@@ -170,11 +170,10 @@ export default ({ properties }) => {
         mb={2}
         fontSize={4}
         fontWeight={900}
-        children="Total Declaration Counts"
+        children="声明统计"
       />
       <p sx={{ fontSize: 1, mt: 0, opacity: 0.7, lineHeight: 1.5 }}>
-        A declaration represents a property value pair. e.g. display: block
-        would represent 1 declaration
+        一个声明代表着一个属性-值对。例如 display: block 即表示一个声明
       </p>
 
       <h3
@@ -186,7 +185,8 @@ export default ({ properties }) => {
           letterSpacing: '0.05em'
         }}
       >
-        Layout and Structure
+        {/* Layout and Structure */}
+        结构布局
       </h3>
       <div>
         <Flex
@@ -215,7 +215,7 @@ export default ({ properties }) => {
           letterSpacing: '0.05em'
         }}
       >
-        Spacing
+        间距
       </h3>
       <Flex
         mt={0}
@@ -240,7 +240,8 @@ export default ({ properties }) => {
           letterSpacing: '0.05em'
         }}
       >
-        Skins
+        {/* Skins */}
+        皮肤
       </h3>
       <Flex
         mt={0}
@@ -265,7 +266,8 @@ export default ({ properties }) => {
           letterSpacing: '0.05em'
         }}
       >
-        Typography
+        {/* Typography */}
+        排印
       </h3>
       <div sx={{}}>
         <Flex
@@ -293,7 +295,8 @@ export default ({ properties }) => {
           letterSpacing: '0.05em'
         }}
       >
-        Borders
+        {/* Borders */}
+        边框
       </h3>
       <div sx={{}}>
         <Flex

@@ -7,8 +7,8 @@ import LineChart from './LineChart'
 export default ({ data }) => (
   <Div mt={4}>
     <SectionTitle
-      title="Ruleset Size"
-      description="Number of declarations per ruleset"
+      title="规则集大小"
+      description="每个规则集(选择器)的声明数"
     />
 
     <LineChart data={data} />

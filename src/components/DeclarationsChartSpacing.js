@@ -34,7 +34,7 @@ export default ({ data }) => {
 
   return (
     <Div mt={4}>
-      <SectionTitle title="Padding" />
+      <SectionTitle title="内间距" />
 
       <GroupedBarChart data={formattedData} />
     </Div>

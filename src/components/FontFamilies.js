@@ -7,8 +7,8 @@ import { Div, Text, SectionTitle } from './library'
 export default ({ fontFamilies = [] }) => (
   <Div mt={5}>
     <SectionTitle
-      title={`${uniq(fontFamilies).length} Unique Font Families`}
-      description={`${fontFamilies.length} total`}
+      title={`${uniq(fontFamilies).length} 种字体`}
+      description={`${fontFamilies.length} 处声明`}
     />
 
     {uniq(fontFamilies).map(fontFamily => (

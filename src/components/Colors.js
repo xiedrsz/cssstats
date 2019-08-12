@@ -7,10 +7,10 @@ import { Div, Flex, Color, SectionTitle } from './library'
 
 export default ({ colors = [] }) => (
   <Div>
-    <h2 sx={{ fontSize: 5 }}>Colors</h2>
+    <h2 sx={{ fontSize: 5 }}>颜色</h2>
     <SectionTitle
-      title={`${uniq(colors).length} unique colors`}
-      description="Printed by declaration order in source code"
+      title={`${uniq(colors).length} 种颜色`}
+      description="按源代码中的声明顺序排列"
     />
     <Flex
       wrap="wrap"
@@ -22,8 +22,8 @@ export default ({ colors = [] }) => (
       ))}
     />
     <SectionTitle
-      title={`${colors.length} total color declarations`}
-      description="Sorted by like values"
+      title={`${colors.length} 个地方有颜色声明`}
+      description="按同类值进行排序"
     />
     <Flex
       wrap="wrap"

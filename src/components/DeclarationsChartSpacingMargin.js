@@ -29,7 +29,7 @@ export default ({ data }) => {
 
   return (
     <Div mt={4}>
-      <SectionTitle title="Margin" />
+      <SectionTitle title="外间距" />
       <GroupedBarChart data={formattedData} />
     </Div>
   )

@@ -8,8 +8,8 @@ import { Div, Text, SectionTitle } from './library'
 export default ({ fontSizes = [] }) => (
   <Div mt={5} style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
     <SectionTitle
-      title="Type Scale"
-      description={`${uniq(fontSizes).length} Unique font sizes`}
+      title="文字刻度"
+      description={`${uniq(fontSizes).length} 种文字尺寸`}
     />
 
     {sort(uniq(fontSizes)).map(fontSize => (
@@ -21,13 +21,14 @@ export default ({ fontSizes = [] }) => (
           key={fontSize}
           fontWeight="700"
           style={{ fontSize, whiteSpace: 'nowrap' }}
-          children="Quick brown fox jumped"
+          // children="Quick brown fox jumped"
+          children="随便写句话"
         />
       </div>
     ))}
     <SectionTitle
       mt={5}
-      title={`${fontSizes.length} Total font size declarations`}
+      title={`${fontSizes.length} 处声明了文字尺寸`}
     />
     <div
       style={{

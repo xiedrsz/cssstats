@@ -27,9 +27,7 @@ const stats = async (req, res) => {
   }
 
   try {
-    // const css = await retrieveCss(fullUrl, date)
-    const css = await retrieveCss(fullUrl, date) || {}
-    console.log(css)
+    const css = await retrieveCss(fullUrl, date)
     const stats = cssstats(css.css, {
       specificityGraph: true,
       repeatedSelectors: true,

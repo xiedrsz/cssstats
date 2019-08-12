@@ -7,7 +7,7 @@ import { Div, Flex, SectionTitle, BackgroundColor } from './library'
 export default ({ backgroundColors = [] }) => (
   <div sx={{ py: [4, 5, 6] }}>
     <SectionTitle
-      title={`${uniq(backgroundColors).length} Unique Background Colors`}
+      title={`${uniq(backgroundColors).length} 种背景颜色`}
       description={''}
     />
 
@@ -29,8 +29,8 @@ export default ({ backgroundColors = [] }) => (
       ))}
     />
     <SectionTitle
-      title={`${backgroundColors.length} Total Background Colors`}
-      description={'Visualized by source code order'}
+      title={`${backgroundColors.length} 个地方有背景颜色声明`}
+      description={'按源代码顺序可视化'}
     />
     <Div
       style={{
@@ -49,7 +49,7 @@ export default ({ backgroundColors = [] }) => (
         ></div>
       ))}
     />
-    <p sx={{ mt: 4 }}>Sorted by similar values</p>
+    <p sx={{ mt: 4 }}>按颜色的相似程度进行排序</p>
     <Div
       style={{
         display: 'table',

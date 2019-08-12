@@ -33,19 +33,19 @@ export default ({ data }) => {
   return (
     <Div pt={[4, 5, 6]}>
       <SectionTitle
-        title="Total vs Unique Declarations"
+        title="声明的总数与种数对比"
         description={
           <span>
-            Out of the <b>{total}</b> total declarations, <b>{unique}</b> have
-            unique values.
+            总共有 <b>{total}</b> 处声明, 但仅有 <b>{unique}</b> 种。
           </span>
         }
       />
       <p>
-        The comparison charts below can help you identify which properties might
-        be the best candidates for creating abstractions.
+        {/* The comparison charts below can help you identify which properties might
+        be the best candidates for creating abstractions. */}
+        下面的对比图表可以帮助您确定哪些属性可能成为创建抽象的最佳候选者。
       </p>
-      <SectionTitle title="Layout and Structure" />
+      <SectionTitle title="结构布局" />
 
       <GroupedBarChart data={formattedData} />
     </Div>

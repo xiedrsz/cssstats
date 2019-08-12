@@ -20,9 +20,9 @@ export default ({ properties }) => {
 
   return (
     <Div py={[3, 4, 5]}>
-      <H2 mb={3} children="Spacing Resets" />
+      <H2 mb={3} children="重置间距" />
       <p sx={{ fontSize: 0, mt: 0 }}>
-        Amount of times each property has been set to 0
+        每个属性设置为0的次数
       </p>
 
       <Flex
