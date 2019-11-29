@@ -23,7 +23,7 @@ open http://localhost:8000
 2. 启动：`npm start`
 3. 跳转至 `api/stats` 目录
 4. 安装项目依赖： `npm install`
-5. 启动： `npm install`
+5. 启动： `npm start`
 6. 启动本地项目
 7. 打开浏览器，输入地址：`http://localhost:8000`
 8. 输入本地项目浏览地址即可查看样式等统计信息
